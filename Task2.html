@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Booking</title>
+</head>
+<body>
+    <h1>Room Booking</h1>
+    <div>
+        <label for="room-type">Choose a room type:</label>
+        <select id="room-type">
+            <option value="">Select a room</option>
+            <option value="$100">Standard - $100/night</option>
+            <option value="$150">Deluxe - $150/night</option>
+            <option value="$200">Suite - $200/night</option>
+        </select>
+    </div>
+    <div>
+        <label for="nights">Number of nights:</label>
+        <input type="number" id="nights" value="1">
+    </div>
+    <button id="calculate-total-btn" onclick="calculateTotal()">Calculate Total</button>
+    <p>Total Cost: $<span id="total-cost">0.00</span></p>
+    <button id="confirm-booking-btn" onclick="confirmBooking()">Confirm Booking</button>
+    <p id="confirmation-msg"></p>
+    <button id="reset-form-btn" onclick="resetForm()">Reset Form</button>
+
+    <script href="Task2.js"></script>
+</body>
+</html>
