@@ -3,25 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Todo with Categories</title>
+  <!--Link to CSS-->
   <link rel="stylesheet" href="Task1.css">
 </head>
+
 <body>
   <div class="container">
     <h1>Task Manager</h1>
 
+  <!--Input and dropdown for adding tasks with descriptions to the task list-->
     <input type="text" id="taskInput" placeholder="Task description">
+
+  <!--Task categories dropdown selection-->
     <select id="categorySelect">
       <option value="Work">Work</option>
       <option value="Home">Home</option>
       <option value="Other">Other</option>
     </select>
+
+  <!--Buttons, triggered by JS-->
     <button id="addBtn">Add Task</button>
     <button id="filterBtn">Filter Tasks</button>
     <button id="clearFilterBtn">Reset Filter</button>
 
+  <!--Output, displays added tasks-->
     <ul id="taskList"></ul>
   </div>
-
+  <!--Link to JS file-->
   <script src="Task1.js"></script>
 </body>
 </html>
