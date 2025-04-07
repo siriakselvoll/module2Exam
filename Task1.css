@@ -1,3 +1,4 @@
+/* Styling, body */
 body {
     font-family: Arial, sans-serif;
     background: #f2f2f2;
@@ -5,6 +6,7 @@ body {
     padding: 2rem;
   }
   
+/* Main card styling */
   .container {
     background: white;
     padding: 1.5rem;
@@ -12,23 +14,33 @@ body {
     max-width: 500px;
     margin: auto;
   }
-  
+
+/* Form styling */
   input, select, button {
     padding: 0.5rem;
     margin: 0.3rem 0;
     width: 100%;
     box-sizing: border-box;
   }
-  
+
+/* Unordered list styling*/ 
   ul {
     list-style: none;
     padding: 0;
   }
-  
+ 
+/* List item styling */ 
   li {
     margin: 0.5rem 0;
     background: #e8e8e8;
     padding: 0.5rem;
     border-radius: 4px;
   }
-  
+
+/* 
+Summary:
+The CSS file defines a clean and readable layout for the task manager.
+The container is styled with a white background, rounded corners and a maximum width for responsive layout and to create a card-like appearance.
+Form elements and list items are styled for full-width responsiveness and clarity.
+The structure supports usability and visual hierarchy, and is easy to maintain and modify if needed.
+*/
