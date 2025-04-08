@@ -37,7 +37,7 @@ function confirmBooking() {
 
     //This check will never match due to the fact that the variable total is a string.
     //Comparing strings to integers will always return false, and the booking will never be confirmed.
-    //I edited the code above to use parseFloat, so the comparison will return true.
+    //Corrected: I edited the code above to use parseFloat, so the comparison will return true.
     if (total === 0) {
         alert('Please calculate the total before confirming.');
         return;
