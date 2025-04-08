@@ -9,10 +9,17 @@
     <div>
         <label for="room-type">Choose a room type:</label>
         <select id="room-type">
-            <option value="">Select a room</option>
+            <!-- Values are not parseable with $-->
+            <!--<option value="">Select a room</option>
             <option value="$100">Standard - $100/night</option>
             <option value="$150">Deluxe - $150/night</option>
-            <option value="$200">Suite - $200/night</option>
+            <option value="$200">Suite - $200/night</option>-->
+
+            <!--Corrected code -->
+            <option value="">Select a room</option>
+            <option value="100">Standard - $100/night</option>
+            <option value="150">Deluxe - $150/night</option>
+            <option value="200">Suite - $200/night</option>
         </select>
     </div>
     <div>
@@ -25,6 +32,10 @@
     <p id="confirmation-msg"></p>
     <button id="reset-form-btn" onclick="resetForm()">Reset Form</button>
 
-    <script href="Task2.js"></script>
+    <!--JS file is not scriptloaded correctly-->
+    <!--<script href="Task2.js"></script>-->
+
+    <!--Corrected link to src-->
+    <script src="Task2.js"></script>
 </body>
 </html>
